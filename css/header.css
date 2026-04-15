@@ -1,0 +1,12 @@
+header .row {
+display: flex;
+justify-content: center; /* Вирівнювання по основній осі (main axis) */
+align-items: center;            /* Вирівнювання рядів по ортогональній осі (cross axis) */
+align-content: center;          /* Вирівнювання усього контенту по ортогональній осі (cross axis) */
+flex-direction: column;         /* Визначення напряму головної осі */
+min-height: 100dvh;             /* dvh - Dynamic Viewport Height */
+}
+
+header .col {
+    background-color:blue;
+}
